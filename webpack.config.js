@@ -1,5 +1,4 @@
 var webpack = require('webpack');
-
 module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
@@ -23,8 +22,10 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
-      applicationStyles:'app/styles/app.scss',
-      Nav:'app/components/Nav.jsx'
+      applicationStyles: 'app/styles/app.scss',
+      Navigation: 'app/components/Navigation.jsx',
+      Timer: 'app/components/Timer.jsx',
+      Countdown: 'app/components/Countdown.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
